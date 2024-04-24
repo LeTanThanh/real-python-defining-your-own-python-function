@@ -38,16 +38,27 @@ if __name__ == "__main__":
   # Argument Passing
   ## Positional Arguments
 
-  def f(qty, item, price):
-    print(f"{qty} {item} cost ${price:.2f}")
+  # def f(qty, item, price):
+  #   print(f"{qty} {item} cost ${price:.2f}")
 
-  f(6, "banana", 17.4)
+  # f(6, "banana", 17.4)
 
   ## Keyword Arguments
 
-  f(qty = 6, item = "banana", price = 17.4)
+  # f(qty = 6, item = "banana", price = 17.4)
 
   ## Default Parameters
+
+  def f(qty = 6, item = "bananas", price = 1.74):
+    print(f"{qty} {item} cost ${price:.2f}")
+
+  f(4, "apples", 2.24)
+  f(4, "apples")
+  f(4)
+  f()
+  f(item = "kumquats", qty = 9)
+  f(price = 2.29)
+
   ## Mutable Default Parameter Values
   ## Pass-By-Value vs Pass-By-Reference in Pascal
   ## Pass-By-Value vs Pass-By-Reference in Python
