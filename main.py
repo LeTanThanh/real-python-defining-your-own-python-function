@@ -27,16 +27,22 @@ if __name__ == "__main__":
     <statement(s)>
   """
 
-  def f():
-    s = "-- Inside f()"
-    print(s)
+  # def f():
+  #   s = "-- Inside f()"
+  #   print(s)
 
-  print("Before calling f()")
-  f()
-  print("After calling f()")
+  # print("Before calling f()")
+  # f()
+  # print("After calling f()")
 
   # Argument Passing
   ## Positional Arguments
+
+  # def f(qty, item, price):
+  #   print(f"{qty} {item} cost ${price:.2f}")
+
+  # f(6, "banana", 17.4)
+
   ## Keyword Arguments
   ## Default Parameters
   ## Mutable Default Parameter Values
