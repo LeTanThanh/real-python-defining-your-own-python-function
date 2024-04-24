@@ -22,6 +22,19 @@ if __name__ == "__main__":
 
   # Function Calls and Definition
 
+  """
+  def <functionname>([<parameters>]):
+    <statement(s)>
+  """
+
+  def f():
+    s = "-- Inside f()"
+    print(s)
+
+  print("Before calling f()")
+  f()
+  print("After calling f()")
+
   # Argument Passing
   ## Positional Arguments
   ## Keyword Arguments
